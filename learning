@@ -2,13 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>The Basic Language of the Web: HTML</title>
+    <title>Basic Language of the Web: HTML</title>
 
-    <style>
-      h1 {
-        colour: blue;
-      }
-    </style>
+  
   </head>
 
   <body>
@@ -22,12 +18,18 @@
     -->
 
     <article>
+      
+      <header>
       <h1>The Code Way</h1>
 
+      <nav>
       <a href="blog.html">Blog</a>
       <a href="challenges.html">Challenges</a>
       <a href="flashbox.html">Flashbox</a>
       <a href="CSSgrid.html">CSS Grid</a>
+      </nav>
+      <header>
+
 
       <h2>The Basic Language of the Web: HTML</h2>
 
@@ -95,41 +97,38 @@
     <aside>
       <h4>Related posts</h4>
 
-      <ul>
-        <li>
-          <img
-            src="related-1.jpg"
-            alt="Person Programmming"
-            width="75"
-            height="75"
-          />
-          <a href="a">How to learn Web Development</a>
+      <li>
+        <img
+          src="related-1.jpg"
+          alt="Person Programmming"
+          width="75"
+          height="75"
+        />
+        <a href="a">How to learn Web Development</a>
 
-          <p>By Jonas Schmedtmann</p>
-        </li>
+        <p>By Jonas Schmedtmann</p>
+      </li>
 
-        <li>
-          <img src="related-2.jpg" alt="Thunderstorm" width="75" height="75" />
+      <li>
+        <img src="related-2.jpg" alt="Thunderstorm" width="75" height="75" />
 
-          <a href="a">The unknown power of CSS</a>
+        <a href="a">The unknown power of CSS</a>
 
-          <p>By Jim Dalton</p>
-        </li>
+        <p>By Jim Dalton</p>
+      </li>
 
-        <li>
-          <img
-            src="related-3.jpg"
-            alt="Javascript pic"
-            width="75"
-            height="75"
-          />
-          <a href="a">Why Javascript is awesome</a>
+      <li>
+        <img src="related-3.jpg" alt="Javascript pic" width="75" height="75" />
+        <a href="a">Why Javascript is awesome</a>
 
-          <p>By Matilda</p>
-        </li>
-      </ul>
+        <p>By Matilda</p>
+      </li>
     </aside>
   </body>
 
-  <footer>Copyright &copy; 2027 by The Code Magazine</footer>
+  <footer>Copyright &copy; 2027 by <b>The Code Magazine<b></footer>
+<p>
+<a href=https://www.google.com/>Resources</a>
+</p>
+
 </html>
